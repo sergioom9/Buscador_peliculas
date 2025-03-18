@@ -168,4 +168,10 @@ html {
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap:10px
+}.buscador{
+  border-radius:  5px;
+  margin: 5px;
+}.botoncete{
+  border-radius:  5px;
+  margin:5px;
 }

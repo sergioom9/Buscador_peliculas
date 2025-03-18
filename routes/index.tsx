@@ -41,8 +41,8 @@ const Home = (props : PageProps)=>{
        <>
        <div class="general">
             <form method="get" target="/index">
-            <input type="text" name="pelicula"/>
-            <button type="submit">Enviar</button>
+            <input class="buscador" type="text" name="pelicula"/>
+            <button class="botoncete" type="submit">Enviar</button>
             </form>
         
         <Menu results={props.data} />
